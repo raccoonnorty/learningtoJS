@@ -1,0 +1,49 @@
+input {
+  margin: 20px 0;
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  padding: 5px 20px;
+  border: none;
+  background: #000;
+  color: #fff;
+
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+.container {
+  max-width: 500px;
+  min-height: 25em;
+  margin: 0 auto;
+  padding: 0;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+}
+
+.list__item {
+}
+
+.line-through {
+  text-decoration-line: line-through;
+}
+
+.two {
+}
+
+.show {
+  background: yellow;
+}
